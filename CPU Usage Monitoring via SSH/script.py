@@ -65,7 +65,7 @@ def fetch_cpu_usage():
 
 
 # Run every 5 minutes
-schedule.every(5).minutes.do(fetch_cpu_usage)
+schedule.every(5).minutes.do(fetch_cpu_usage)  #you can change as per your requirements
 
 print("Scheduler started... Press Ctrl+C to stop")
 while True:
