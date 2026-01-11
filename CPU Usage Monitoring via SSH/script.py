@@ -8,7 +8,6 @@ import time
 
 load_dotenv()
 
-# ====== PLACEHOLDERS FOR SENSITIVE DATA ======
 hostName = os.getenv("HOST_NAME")        # e.g. 192.168.1.10 or ec2-xx-xx.compute.amazonaws.com
 userName = os.getenv("SSH_USERNAME")     # e.g. ubuntu, ec2-user
 keyPath = "PATH/TO/YOUR/PRIVATE_KEY.pem" # e.g. C:/keys/server-key.pem
